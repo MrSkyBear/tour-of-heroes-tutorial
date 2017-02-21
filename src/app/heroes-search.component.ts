@@ -10,7 +10,7 @@ import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
-import { HeroSearchService } from './heroes-search.service';
+import { HeroSearchService } from './services/heroes-search.service';
 import { Hero } from './hero';
 
 @Component({
